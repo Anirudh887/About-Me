@@ -18,28 +18,21 @@ body{
   }
 }
 
+/* @media (min-width: 1366px){
+  body{
+    font-size: 1.2rem;
+  }
+} */
+
 .header-flex{
   display: flex;
   align-items: flex-end;
   justify-content:  flex-end;
-}
-/* 
-h1 {
-  text-align: right;
-} */
-
-h2{
-  background-color: #654321;
-  color: white;
+  text-transform: uppercase;
 }
 
-.book-pictures{
+.profile-pic{
   width: 15rem;
-  margin-right: 1rem;
-}
-
-.photography-pictures{
-  width: 30rem;
   margin-right: 1rem;
 }
 
@@ -48,18 +41,51 @@ hr{
   height: 0.2rem;
 }
 
-blockquote{
-  text-align: center;
+h2{
+  background-color: #654321;
+  color: white;
+  text-transform: uppercase;
+  padding-left: 0.8rem;
 }
+
+.book-pictures{
+  width: 15rem;
+  margin-right: 1rem;
+}
+
+.book-pictures:hover{
+  border:2px solid rgb(49, 49, 204);
+}
+
 
 .image-div{
   text-align: center;
 }
 
-.profile-pic{
-  width: 15rem;
-  margin-right: 1rem;
+.photography-pictures{
+  width: 30rem;
+  margin: 2rem 1rem;
+  transition: transform .4s;
+  box-shadow: 2rem 2rem 5rem 5px grey; ;
+  
 }
+
+.photography-pictures:hover{
+  transform: scale(1.2);
+}
+
+
+blockquote{
+  text-align: center;
+}
+
+a:hover{
+  font-weight: bold;
+}
+
+
+
+
 
 
  
