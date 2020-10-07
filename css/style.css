@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: #FBF0D9;
+  color:#5F4B32;
+  font-family: 'Poppins';
+  font-size: 1.6rem;
+  margin : 0.5rem 4vw;
+}
+
+@media (min-width: 1366px){
+  body{
+    margin: 0.5rem 12rem;
+  }
+}
+
+.header-flex{
+  display: flex;
+  align-items: flex-end;
+  justify-content:  flex-end;
+}
+/* 
+h1 {
+  text-align: right;
+} */
+
+h2{
+  background-color: #654321;
+  color: white;
+}
+
+.book-pictures{
+  width: 15rem;
+  margin-right: 1rem;
+}
+
+.photography-pictures{
+  width: 30rem;
+  margin-right: 1rem;
+}
+
+hr{
+  background-color: green;
+  height: 0.2rem;
+}
+
+blockquote{
+  text-align: center;
+}
+
+.image-div{
+  text-align: center;
+}
+
+.profile-pic{
+  width: 15rem;
+  margin-right: 1rem;
+}
+
+
+ 
