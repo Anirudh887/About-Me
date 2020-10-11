@@ -57,7 +57,6 @@ h2{
   border:2px solid rgb(49, 49, 204);
 }
 
-
 .image-div{
   text-align: center;
 }
@@ -66,7 +65,7 @@ h2{
   width: 30rem;
   margin: 2rem 1rem;
   transition: transform .4s;
-  box-shadow: 2rem 2rem 5rem 5px grey; ;
+  box-shadow: 0 0 5rem 0.5rem #000000ab; ;
   
 }
 
@@ -81,6 +80,7 @@ blockquote{
 
 a:hover{
   font-weight: bold;
+  text-shadow: 0 0 3px #FF0000;
 }
 
 
